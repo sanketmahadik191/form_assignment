@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Personal Details Form</title>
+   
 </head>
 <body>
     <form>
