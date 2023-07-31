@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details Form</title>
+</head>
+<body>
+    <form>
+        Personal details
+        <br>
+        <!-- Salutation -->
+        <label for="salutation">Salutation:</label> <br>
+        <select id="salutation" name="salutation">
+            <option value="">--None--</option>
+        </select>
+        <br><br>
+
+        <!-- First Name -->
+        <label for="first-name">First Name:</label>
+        <input type="text" placeholder="abcd" id="first-name" name="first-name" required>
+        <br><br>
+
+        <!-- Last Name -->
+        <label for="last-name">Last Name:</label>
+        <input type="text" placeholder="abcd" id="last-name" name="last-name" required>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" placeholder="abc@gmail.com" id="email" name="email" required>
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label for="date-of-birth">Date of birth:</label>
+        <input type="date" id="date-of-birth" name="date-of-birth" required>
+        <br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address"></textarea>
+        <br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
